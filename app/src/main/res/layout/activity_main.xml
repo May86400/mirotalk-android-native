@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp" android:background="@color/webex_night">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="MiroTalk" android:textColor="@color/webex_text" android:textSize="32sp" android:textStyle="bold" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" android:text="Native video meetings" android:textColor="@color/webex_muted" android:textSize="16sp" />
+    <EditText android:id="@+id/roomInput" android:layout_width="match_parent" android:layout_height="56dp"
+        android:layout_marginTop="48dp" android:hint="Room name" android:inputType="text" android:textColor="@color/webex_text"
+        android:textColorHint="@color/webex_muted" android:backgroundTint="@color/webex_blue" />
+    <EditText android:id="@+id/nameInput" android:layout_width="match_parent" android:layout_height="56dp"
+        android:layout_marginTop="16dp" android:hint="Your name" android:inputType="textPersonName" android:textColor="@color/webex_text"
+        android:textColorHint="@color/webex_muted" android:backgroundTint="@color/webex_blue" />
+    <Button android:id="@+id/joinButton" android:layout_width="match_parent" android:layout_height="56dp"
+        android:layout_marginTop="28dp" android:text="Join meeting" android:textAllCaps="false" />
+</LinearLayout>

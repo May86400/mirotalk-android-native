@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="webex_night">#1E1E1E</color>
+    <color name="webex_blue">#134074</color>
+    <color name="webex_panel">#282828</color>
+    <color name="webex_red">#D9363E</color>
+    <color name="webex_text">#F4F6F8</color>
+    <color name="webex_muted">#AEB5BD</color>
+</resources>
