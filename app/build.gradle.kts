@@ -15,7 +15,7 @@ android {
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
-        buildConfigField("String", "MIROTALK_URL", "\"https://your-mirotalk-server.example\"")
+        buildConfigField("String", "MIROTALK_URL", "\"https://p2p.mirotalk.com\"")
     }
 
     buildTypes {
